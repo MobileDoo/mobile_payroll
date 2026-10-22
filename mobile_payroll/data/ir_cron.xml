@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+    <!-- Tell employees a payslip of theirs was confirmed. One cheap query when there is nothing new. -->
+    <record id="ir_cron_mobile_payroll_notify" model="ir.cron">
+        <field name="name">Mobile: tell employees about new payslips</field>
+        <field name="model_id" ref="model_mobile_payroll_notice"/>
+        <field name="state">code</field>
+        <field name="code">model._cron_notify()</field>
+        <field name="interval_number">15</field>
+        <field name="interval_type">minutes</field>
+        <field name="numbercall">-1</field>
+        <field name="doall" eval="False"/>
+    </record>
+</odoo>

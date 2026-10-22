@@ -1,0 +1,41 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mobile_payroll
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+"Language: de_DE\n"
+
+#. module: mobile_payroll
+#. odoo-python
+#: code:addons/mobile_payroll/models/mobile_api.py:0
+#, python-format
+msgid "Payslips"
+msgstr "Gehaltsabrechnungen"
+
+#. module: mobile_payroll
+#. odoo-python
+#: code:addons/mobile_payroll/models/mobile_api.py:0
+#, python-format
+msgid "All payslips"
+msgstr "Alle Abrechnungen"
+
+#. module: mobile_payroll
+#. odoo-python
+#: code:addons/mobile_payroll/models/mobile_payroll_notice.py:0
+#, python-format
+msgid "New payslip"
+msgstr "Neue Gehaltsabrechnung"
+
+#. module: mobile_payroll
+#. odoo-python
+#: code:addons/mobile_payroll/models/mobile_payroll_service.py:0
+#, python-format
+msgid "This payslip does not exist."
+msgstr "Diese Gehaltsabrechnung existiert nicht."
